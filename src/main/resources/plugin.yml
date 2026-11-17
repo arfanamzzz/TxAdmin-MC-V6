@@ -1,0 +1,10 @@
+name: TxAdmin
+version: '${project.version}'
+main: dev.txadmin.TxAdmin
+api-version: '26.3'
+description: Menu admin ala txAdmin (FiveM) untuk Minecraft
+commands:
+  tx:
+    description: Menu dan perintah TxAdmin
+    usage: /tx help
+    aliases: [txadmin]
